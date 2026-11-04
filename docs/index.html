@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PM Academy — Learn smarter for boards &amp; competitive exams</title>
+  <meta name="description" content="PM Academy is a study app for school students: notes, mind maps, question practice, test papers and group study boards.">
+  <link rel="canonical" href="https://dev-pintu.github.io/privacy-police-/">
+  <style>
+    :root { --accent: #4f6df5; --ink: #1a1d2b; --muted: #5b6178; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink); line-height: 1.6; background: #fafaff;
+    }
+    header {
+      background: linear-gradient(135deg, #4f6df5, #7c4fe0);
+      color: #fff; padding: 72px 24px 64px; text-align: center;
+    }
+    header h1 { margin: 0 0 12px; font-size: 2.4rem; letter-spacing: -0.02em; }
+    header p { margin: 0 auto; max-width: 620px; font-size: 1.1rem; opacity: .92; }
+    main { max-width: 880px; margin: 0 auto; padding: 48px 24px; }
+    .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .card {
+      background: #fff; border: 1px solid #e8e8f4; border-radius: 14px;
+      padding: 22px; box-shadow: 0 2px 8px rgba(30,30,80,.05);
+    }
+    .card h3 { margin: 0 0 8px; color: var(--accent); }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    h2 { margin-top: 44px; }
+    a { color: var(--accent); }
+    footer {
+      border-top: 1px solid #e8e8f4; margin-top: 56px; padding: 24px;
+      text-align: center; color: var(--muted); font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PM Academy</h1>
+    <p>Notes, mind maps, question practice, test papers and live group-study
+       boards — everything a school student needs, in one app.</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="card">
+        <h3>Concept notes &amp; mind maps</h3>
+        <p>Class-wise subject notes with visual mind maps for quick revision.</p>
+      </div>
+      <div class="card">
+        <h3>Question practice</h3>
+        <p>Practice questions with instant feedback and tracked progress.</p>
+      </div>
+      <div class="card">
+        <h3>Test papers &amp; board papers</h3>
+        <p>Past board papers and mock tests, ready to attempt.</p>
+      </div>
+      <div class="card">
+        <h3>Group study boards</h3>
+        <p>Shared whiteboards and rooms to study together in real time.</p>
+      </div>
+      <div class="card">
+        <h3>Progress tracking</h3>
+        <p>See what you have covered and what needs more attention.</p>
+      </div>
+      <div class="card">
+        <h3>Safe for students</h3>
+        <p>Parental-consent gated sign-up in line with India's DPDP Act.</p>
+      </div>
+    </div>
+
+    <h2>Get the app</h2>
+    <p>Available on
+      <a href="https://uptodown.com/">Uptodown</a>
+      and Google Play. Search for <strong>PM Academy</strong>.</p>
+
+    <h2>Support</h2>
+    <p>Questions or feedback? Email
+      <a href="mailto:academypm331@gmail.com">academypm331@gmail.com</a>
+      or use the in-app feedback form.</p>
+
+    <h2>Policies</h2>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+
+  <footer>
+    © <span id="y"></span> PM Academy. All rights reserved.
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
